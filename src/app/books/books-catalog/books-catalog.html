@@ -1,0 +1,30 @@
+@if (filteredBooks(); as books) {
+<div class="container">
+  <app-books-catalog-search (inputEvent)="query.set($event)"></app-books-catalog-search>
+  <div class="catalog">
+  @if (books.length > 0) {
+    @for (book of books; track $index) {
+    <a [routerLink]="['/books',book.id]">
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <mat-card-title>{{book.title}}</mat-card-title>
+          <mat-card-subtitle>{{book.author}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{book.description | truncate}}</p>
+      </mat-card-content>
+      <mat-card-footer class="example-card-footer">
+        <mat-chip-set aria-label="Chihuahua traits">
+          <mat-chip>{{book.genre}}</mat-chip>
+        </mat-chip-set>
+      </mat-card-footer>
+      </mat-card>
+    </a>
+  }
+  } @else {
+    <p class="not-found">Not found</p>
+  }
+</div>
+</div>
+<app-books-catalog-add (addEvent)="onAddBook($event)"></app-books-catalog-add>
+}

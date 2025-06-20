@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genre": "Dystopian",
+    "description": "A chilling depiction of a totalitarian regime and the control of truth."
+  },
+  {
+    "id": 2,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "genre": "Science Fiction",
+    "description": "A futuristic society shaped by technology, hedonism, and control."
+  },
+  {
+    "id": 3,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "genre": "Philosophical Novel",
+    "description": "A psychological journey into guilt, redemption, and morality."
+  },
+  {
+    "id": 4,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "genre": "Southern Gothic",
+    "description": "A powerful story of racial injustice and childhood in the Deep South."
+  },
+  {
+    "id": 5,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "genre": "Classic",
+    "description": "A tragic tale of wealth, love, and the American Dream."
+  },
+  {
+    "id": 6,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "year": 1880,
+    "genre": "Philosophical Novel",
+    "description": "A deep exploration of faith, doubt, and family conflict."
+  },
+  {
+    "id": 7,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "genre": "Romance",
+    "description": "A witty exploration of class, marriage, and morality."
+  },
+  {
+    "id": 8,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953,
+    "genre": "Dystopian",
+    "description": "In a world where books are banned, one man dares to read."
+  },
+  {
+    "id": 9,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "genre": "Coming-of-Age",
+    "description": "A disaffected teenager’s journey through alienation and identity."
+  },
+  {
+    "id": 10,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "genre": "Adventure",
+    "description": "An epic tale of obsession and the sea."
+  }
+]

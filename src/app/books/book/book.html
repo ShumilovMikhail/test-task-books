@@ -1,0 +1,10 @@
+<div class="container">
+  <a [routerLink]="['/']">Вернуться</a>
+  @if(book(); as book) {
+    <h2>{{book.title}}</h2>
+    <p class="author">Author: {{book.author}}</p>
+    <p class="year">Year of release: {{book.year}}</p>
+    <p class="genre">Genre: {{book.genre}}</p>
+    <p class="description">Description: {{book.description}}</p>
+  }
+</div>

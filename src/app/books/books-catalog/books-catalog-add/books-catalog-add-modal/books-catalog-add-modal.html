@@ -1,0 +1,49 @@
+<h2 mat-dialog-title>Add book</h2>
+<mat-dialog-content>
+  <form [formGroup]="bookForm" class="form">
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Title"
+      formControlName="title"
+      required
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Author"
+      formControlName="author"
+      required
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Year"
+      formControlName="year"
+      required
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Genre"
+      formControlName="genre"
+      required
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Description"
+      formControlName="description"
+      required
+    />
+  </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button matButton [disabled]="bookForm.invalid" (click)="submit()">Add</button>
+  <button matButton (click)="close()">Close</button>
+</mat-dialog-actions>
